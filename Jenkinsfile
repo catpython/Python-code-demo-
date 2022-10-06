@@ -2,7 +2,7 @@
 Jenkinsfile (Declarative Pipeline)
 
 pipeline {
-    agent { docker 'python3.7-alpine' }
+    agent { docker 'python:3.7-alpine' }
     stages {
         stage('build') {
             steps {
