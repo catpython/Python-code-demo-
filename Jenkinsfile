@@ -1,5 +1,5 @@
 
-Jenkinsfile (Declarative Pipeline)
+//Jenkinsfile (Declarative Pipeline)
 
 pipeline {
     agent { docker 'python:3.7-alpine' }
